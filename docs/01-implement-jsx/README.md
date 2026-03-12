@@ -26,6 +26,8 @@
 2. **React 元素是一个普通 JavaScript 对象**，包含 `type`、`props`、`key` 等属性
 3. **使用 `Symbol` 作为内部标识符**可以防止被伪造
 4. **编译时与运行时**：JSX 在编译时转换为函数调用，在运行时创建元素对象
+5. **[path.resolve](./path-resolve.md)**：Node.js 路径解析方法，将路径片段解析为绝对路径
+6. **[Rollup 插件](./rollup-plugins.md)**：项目中使用的 Rollup 插件介绍，包括 rimraf、rollup-plugin-typescript2、@rollup/plugin-commonjs、rollup-plugin-generate-package-json
 
 ## 遇到的问题
 
